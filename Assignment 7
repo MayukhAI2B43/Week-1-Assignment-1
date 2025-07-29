@@ -1,0 +1,42 @@
+Reverse a String
+Difficulty: Basic  Accuracy: 70.82%  Submissions: 84K+  Points: 1
+Given a string s , return reverse of the string as output.
+
+Example 1:
+
+Input: 
+s = "GeeksforGeeks"
+Output: "skeeGrofskeeG" 
+Explanation: Reverse string of "GeeksforGeeks" will be "skeeGrofskeeG"
+Example 2:
+
+Input: 
+s = "ReversE"
+Output: "EsreveR"
+Explanation: Reverse string of "ReversE" will be "EsreveR"
+
+Your Task:  
+You dont need to read input or print anything. Complete the function revStr() which takes s as input parameter and returns the reversed string .
+
+Expected Time Complexity: O(|s|)
+Expected Auxiliary Space: O(|s|)
+
+Constraints:
+1<= |s| <=106
+
+Topic Tags
+Strings  Java  Data Structures
+
+
+
+Code in Python3:-
+#User function Template for python3
+class Solution:
+    def revStr (self, s : str) -> str :
+        # code here 
+        l=[]
+        for ele in s:
+            l.append(ele)
+        l.reverse()
+        m=''.join(l)
+        return m
