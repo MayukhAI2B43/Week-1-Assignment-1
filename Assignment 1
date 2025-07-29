@@ -1,5 +1,4 @@
 Array insert at end
-
 Difficulty: Basic  Accuracy: 87.65%  Submissions: 66K+  Points: 1
 
 Given an array arr that is not completely filled and a value a, you have to insert the value at the end of the array.
@@ -20,10 +19,12 @@ Expected Complexities
 Time Complexity: O(1)
 Auxiliary Space: O(1)
 
+Topic Tags
+Arrays    Data Structures
+
 
 
 Code in Python3:-
-
 class Solution:
     def insertAtEnd(self, arr, val):
         arr.append(val)
